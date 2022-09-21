@@ -1,0 +1,27 @@
+>> test__dip_analysis
+ ---- imagens/bird.tif ----
+Pixel mais frequente=148
+Pixel menos frequente=1
+Numero total de pixeis=65536
+Numero de pixeis distintos=145
+Entropia=6.774394e+00
+Brilho=1.253929e+02
+Contraste=201
+
+ ---- imagens/lena.tif ----
+Pixel mais frequente=24
+Pixel menos frequente=1
+Numero total de pixeis=65536
+Numero de pixeis distintos=230
+Entropia=7.568285e+00
+Brilho=9.867918e+01
+Contraste=235
+
+ ---- imagens/boat.tif ----
+Pixel mais frequente=172
+Pixel menos frequente=2
+Numero total de pixeis=262144
+Numero de pixeis distintos=224
+Entropia=7.123758e+00
+Brilho=1.361268e+02
+Contraste=239

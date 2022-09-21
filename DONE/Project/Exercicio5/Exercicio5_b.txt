@@ -1,0 +1,2 @@
+
+Nas várias imagens geradas, foi verificado que devido à cor utilizada como "background", é dificil de ver certos caracteres coloridos, no entanto esses caracteres podem ser facilmente reconhecidos na escala de cinzento.

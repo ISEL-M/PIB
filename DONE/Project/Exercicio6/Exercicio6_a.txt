@@ -1,0 +1,4 @@
+
+A solução proposta começa por criar uma imagem com uma determinada resolução espacial, calculada dinamicamente de acordo com determinados parametros internos.
+O conteúdo da imagem gerada, terá 1 linha com "maxLetters" caracteres. Dependendo da dificuldade [0..2] é adicionado ruído e/ou distorção à imagem. É possivél gerar a mesma imagem através de uma "seed".
+No final as imagens geradas serão guardadas de acordo com o nome: "captcha_<dificuldade>_<tipo de cor>" em png e jpeg.

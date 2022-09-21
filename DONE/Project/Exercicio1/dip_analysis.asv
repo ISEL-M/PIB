@@ -1,0 +1,38 @@
+function dip_analysis()
+    close all;
+    clc
+    
+    % Ler a imagem a partir do ficheiro
+    I = imread('bird.png');
+
+    % Resolucao espacial
+    [M, N] = size(I);
+    
+    % Histograma
+    hist = imhist(I); 
+
+    % Numero total de pixeis e pixeis districtos
+    nPixels = M*N;
+    distinctPixel = length(find(hist>0));
+
+    % Procurar quais os pixeis mais/menos frequentes
+    maxRep = max(hist.Values);
+    minRep = min(hist.Values);
+    %lessRepeatPix = find(hist==minRep);
+    %moreRepeatPix = find(hist==maxRep);
+
+    % Calcular o valor minimo e maximo para calcular o contraste
+    mi = min(min(I));
+    mx = max(max(I));
+    
+    % Calculo de brilho/contraste/entropia
+    brilho=mean2(I);
+    contraste=mx-mi;
+    H = entropy(I);
+
+    % Mostrar a informaao
+    fprintf('Pixel mais frequente=%d\nPixel menos frequente=%d\n', m, lessRepeatPix);
+    fprintf('Numero Total de Pixeis=%d\nNumero de pixeis Distintos=%d\n', nPixels, distinctPixel);
+    fprintf('Entropia=%d, Brilho=%d , Contraste=%d\n', H, brilho, contraste);
+end
+

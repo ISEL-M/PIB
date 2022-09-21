@@ -1,0 +1,38 @@
+
+face.png
+	Noise / Distortion
+	> contrast and brightness adjust
+	> smoothing, increasing from face1.png to face4.png
+	
+	Restoring
+	> contrast and brightness readjust
+	> sharpening
+
+iris.png
+	Noise / Distortion
+	> white noise / gaussian noise
+	
+	Restoring
+	> mean
+	
+squares.gif
+	Noise / Distortion
+	> salt and pepper
+	> rotation
+	> inverted
+	
+	Restoring
+	> rotation readjust
+	> median
+	> re-invert
+	
+face_thermogram.png
+	Noise / Distortion
+	> contrast and brightness adjust
+	> salt and pepper
+	
+	Restoring
+	> median
+	> contrast and brightness readjust
+		
+		

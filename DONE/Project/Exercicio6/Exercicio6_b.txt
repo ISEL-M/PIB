@@ -1,0 +1,3 @@
+
+Nas várias imagens geradas, foi verificado que a adição de ruído em jpeg torna o texto um pouco mais dificil de ler, devido à compressão usada.
+A distorção utilizada, horizontal e vertical, certas letras poderão ser confundidas umas com as outras, por exemplo o 'G' com o 'C' como se pode verificar através das imagens recolhidas.

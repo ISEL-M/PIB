@@ -1,0 +1,83 @@
+
+DEMO1
+--------------------------------------------------
+read_image.m
+	> faz read a uma imagem
+	> mostra os detalhes da imagem:
+		- tamanho espacial
+		- calcula a sua entropia
+		- abre uma janela com a imagem, seu histograma e entropia
+	> salva a imagem de input em PNG
+	> mostra mais detalhes da imagem inicial:
+		- calcula a energia, potencia, valor médio, valores minimo e maximo
+		- mostra estes detalhes na consola
+		
+
+read_image_color.m
+	> faz read a uma imagem a cores
+	> obtem as componentes RGB em imagens separadas
+	> abre uma janela:
+		- mostra 4 imagens, uma a cores e as restantes cada uma na sua respectiva componentes
+	> salva a imagem de input em JPEG	
+	> converte a imagem em gray scale
+	> abre uma janela:
+		- mostra 2 imagens, uma a cores e a outra a versao gray scale
+	
+	
+read_image_color_v2.m
+	> faz read a uma imagem a cores
+	> obtem as componentes RGB em imagens separadas
+	> abre uma janela:
+		- mostra 4 imagens, uma a cores e as restantes cada uma na sua respectiva componentes
+	> calcula energia por componente RGB
+	> troca as componentes R e G e abre uma janela com a imagem original e outra com as componentes trocadas
+	> troca as componentes R e B e abre uma janela com a imagem original e outra com as componentes trocadas
+	
+	
+test_images.m
+	> faz read a uma imagem a cores
+	> converte a imagem em gray scale
+	> converte a imagem gray scale para binaria
+	> abre 3 janelas:
+		- uma com a 3 imagens
+		- outra com a gray scale, binaria e seus respectivos histogramas
+		- por fim uma com 3 histogramas, 1 para cada componente RGB
+--------------------------------------------------
+
+
+
+DEMO2
+--------------------------------------------------
+arithmetric_operations.m
+	> faz read a 2 imagens
+	> soma as duas imagens e mostra a imagem resultante numa janela
+	> subtrai as duas imagens e mostra a imagem resultante numa janela
+	> multiplica as duas imagens e mostra a imagem resultante numa janela
+	> aumenta o brilho, adicionando 50 a todos os pixeis de uma imagem e mostra a imagem resultante numa janela
+	> altera o contraste, multiplicando 2 a todos os pixeis de uma imagem e mostra a imagem resultante numa janela
+
+
+logical_operations.m
+	> faz read a 2 imagens
+	> aplica AND entre as 2 imagens e mostra a imagem resultante numa janela
+	> aplica OR entre as 2 imagens e mostra a imagem resultante numa janela
+	> aplica XOR entre 2 imagens e mostra a imagem resultante numa janela
+	> aplica NOT a cada 1 das imagens e mostra as imagens resultantes numa janela
+	
+	
+optical_ilusion.m
+	> faz read a uma imagem a cores
+	> converte a imagem em gray scale
+	> mostra a imagem resultante numa janela
+	
+	
+optical_ilusion2.m
+	> cria 3 imagens 256x256
+	> o conteudo de cada imagem é gerado de forma computacional:
+		- imagem 1 contem quadrado cinzento no centro com valor 100 e à sua volta valor 10
+		- imagem 2 contem quadrado cinzento no centro com valor 100 e à sua volta valor 128
+		- imagem 3 contem quadrado cinzento no centro com valor 100 e à sua volta valor 250
+	> abre uma janela mostrando o resultado da geração
+	> abre outra janela mostrando o histograma das 3 imagens
+	
+	

@@ -1,0 +1,4 @@
+2.b
+	Nos testes realizados às 3 imagens [boat.tif, mandrill.tif, squares.tif] usando o código desenvolvido em java para ajustar o brilho e contraste das imagens, chegou-se às seguintes conclusões:
+		> alterar o brilho implica num "shift" ao histograma da imagem, podendo haver saturação na parte inferior ou superior dependendo de quanto se ajusta o mesmo
+		> alterar o contraste faz com que o histograma da imagem seja mais ou menos disperso, podendo haver saturação nos valores superiores

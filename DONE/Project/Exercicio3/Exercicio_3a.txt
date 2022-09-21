@@ -1,0 +1,46 @@
+
+>	Ao realizar a computação das várias imagens para o seu inverso, verificou-se que o histograma das imagens inverte horizontalmente (valores baixos passam para altos, e valores altos passam para baixos).
+	Verificou-se tambem que o contraste das imagens não foi aterado nem a sua entropia, no entanto o brilho foi alterado especialmente para as imagens: Sat.png e iris.png.
+
+>	A fução "imcomplement" aplica uma lookup table inversa (função inversa) à original.
+
+
+ --- CT.jpg ---
+Pixeis Distintos=191, Total de Pixeis=16384 
+Original: Constraste=237, Brilho=1.157346e+02 , Entropia=5.137531e+00 
+Inverted: Constraste=237, Brilho=1.392654e+02 , Entropia=5.137531e+00
+
+ --- MR.jpg ---
+Pixeis Distintos=193, Total de Pixeis=16384 
+Original: Constraste=255, Brilho=3.973737e+01 , Entropia=5.410780e+00 
+Inverted: Constraste=255, Brilho=2.152626e+02 , Entropia=5.410780e+00 
+
+ --- PET.png ---
+Pixeis Distintos=235, Total de Pixeis=866852 
+Original: Constraste=255, Brilho=1.937101e+01 , Entropia=4.839233e+00 
+Inverted: Constraste=255, Brilho=2.356290e+02 , Entropia=4.839233e+00 
+
+ --- Sat.png ---
+Pixeis Distintos=141, Total de Pixeis=1476993 
+Original: Constraste=234, Brilho=9.637709e+01 , Entropia=5.915410e+00 
+Inverted: Constraste=234, Brilho=1.586229e+02 , Entropia=5.915410e+00 
+
+ --- bird.png ---
+Pixeis Distintos=145, Total de Pixeis=65536 
+Original: Constraste=201, Brilho=1.253929e+02 , Entropia=6.774394e+00 
+Inverted: Constraste=201, Brilho=1.296071e+02 , Entropia=6.774394e+00 
+
+ --- bubbles.png ---
+Pixeis Distintos=223, Total de Pixeis=486948 
+Original: Constraste=251, Brilho=1.385914e+02 , Entropia=5.876549e+00 
+Inverted: Constraste=251, Brilho=1.164086e+02 , Entropia=5.876549e+00 
+
+ --- finger.png ---
+Pixeis Distintos=222, Total de Pixeis=245760 
+Original: Constraste=255, Brilho=1.413080e+02 , Entropia=7.268128e+00 
+Inverted: Constraste=255, Brilho=1.136920e+02 , Entropia=7.268128e+00 
+
+ --- iris.png ---
+Pixeis Distintos=256, Total de Pixeis=249696 
+Original: Constraste=255, Brilho=9.578412e+01 , Entropia=7.713811e+00 
+Inverted: Constraste=255, Brilho=1.592159e+02 , Entropia=7.713811e+00

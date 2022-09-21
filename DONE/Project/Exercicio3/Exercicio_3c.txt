@@ -1,0 +1,45 @@
+
+>	Ao realizar a computação das várias imagens ao equalizar seu histograma, verificou-se que:
+	- equalização sem imagem referência geralmente é uma boa opção
+	- equalização com imagem referência não deve ser usado para a própria imagem, pois o resultado é basicamente o mesmo se não igual, mas é uma boa escolha se o histograma da imagem a ser equalizada é practicamente o inverso da imagem referência
+
+
+ --- CT.jpg ---
+Original: Constraste=237, Brilho=1.157346e+02 , Entropia=5.137531e+00 
+Improved: Constraste=255, Brilho=1.278469e+02 , Entropia=4.765435e+00 
+Improved w/ iris.png: Constraste=255, Brilho=9.580139e+01 , Entropia=4.977659e+00 
+
+ --- MR.jpg ---
+Original: Constraste=255, Brilho=3.973737e+01 , Entropia=5.410780e+00 
+Improved: Constraste=255, Brilho=1.272805e+02 , Entropia=4.364364e+00 
+Improved w/ iris.png: Constraste=253, Brilho=9.607050e+01 , Entropia=5.336523e+00 
+
+ --- PET.png ---
+Original: Constraste=255, Brilho=1.937101e+01 , Entropia=4.839233e+00 
+Improved: Constraste=162, Brilho=1.448329e+02 , Entropia=4.148009e+00 
+Improved w/ iris.png: Constraste=199, Brilho=1.045300e+02 , Entropia=4.686243e+00 
+
+ --- Sat.png ---
+Original: Constraste=234, Brilho=9.637709e+01 , Entropia=5.915410e+00 
+Improved: Constraste=255, Brilho=1.274502e+02 , Entropia=5.434926e+00 
+Improved w/ iris.png: Constraste=251, Brilho=9.580702e+01 , Entropia=5.840289e+00 
+
+ --- bird.png ---
+Original: Constraste=201, Brilho=1.253929e+02 , Entropia=6.774394e+00 
+Improved: Constraste=255, Brilho=1.272952e+02 , Entropia=5.863183e+00 
+Improved w/ iris.png: Constraste=255, Brilho=9.577765e+01 , Entropia=6.577442e+00 
+
+ --- bubbles.png ---
+Original: Constraste=251, Brilho=1.385914e+02 , Entropia=5.876549e+00 
+Improved: Constraste=255, Brilho=1.273258e+02 , Entropia=5.302176e+00 
+Improved w/ iris.png: Constraste=255, Brilho=9.586791e+01 , Entropia=5.655000e+00 
+
+ --- finger.png ---
+Original: Constraste=255, Brilho=1.413080e+02 , Entropia=7.268128e+00 
+Improved: Constraste=255, Brilho=1.274389e+02 , Entropia=5.962602e+00 
+Improved w/ iris.png: Constraste=254, Brilho=9.575678e+01 , Entropia=7.106190e+00 
+
+ --- iris.png ---
+Original: Constraste=255, Brilho=9.578412e+01 , Entropia=7.713811e+00 
+Improved: Constraste=255, Brilho=1.274496e+02 , Entropia=5.984827e+00 
+Improved w/ iris.png: Constraste=255, Brilho=9.578412e+01 , Entropia=7.713811e+00 

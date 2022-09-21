@@ -1,0 +1,37 @@
+
+>	Ao realizar a computação das várias imagens para ajustar o seu contraste, verificou-se que imagens que tinham inicialmente um contraste baixo, melhoraram bastante. No entanto imagens que inicialmente tinham um contraste alto, notou-se pouco a melhoria.
+
+>	A fução "imadjust" satura 1% dos valores da imagem nos extremos (mais altos e mais baixos) da lookup table e ajusta o contraste para abrangir o mais espectro possivel de valores.
+
+
+ --- CT.jpg ---
+Original: Constraste=237, Brilho=1.157346e+02 , Entropia=5.137531e+00 
+Improved: Constraste=255, Brilho=7.395453e+01 , Entropia=5.027705e+00 
+
+ --- MR.jpg ---
+Original: Constraste=255, Brilho=3.973737e+01 , Entropia=5.410780e+00 
+Improved: Constraste=255, Brilho=7.396704e+01 , Entropia=5.353830e+00 
+
+ --- PET.png ---
+Original: Constraste=255, Brilho=1.937101e+01 , Entropia=4.839233e+00 
+Improved: Constraste=255, Brilho=3.220012e+01 , Entropia=4.784971e+00 
+
+ --- Sat.png ---
+Original: Constraste=234, Brilho=9.637709e+01 , Entropia=5.915410e+00 
+Improved: Constraste=255, Brilho=1.119023e+02 , Entropia=5.882753e+00 
+
+ --- bird.png ---
+Original: Constraste=201, Brilho=1.253929e+02 , Entropia=6.774394e+00 
+Improved: Constraste=255, Brilho=1.480341e+02 , Entropia=6.719909e+00 
+
+ --- bubbles.png ---
+Original: Constraste=251, Brilho=1.385914e+02 , Entropia=5.876549e+00 
+Improved: Constraste=255, Brilho=4.365918e+01 , Entropia=5.809179e+00 
+
+ --- finger.png ---
+Original: Constraste=255, Brilho=1.413080e+02 , Entropia=7.268128e+00 
+Improved: Constraste=255, Brilho=1.026354e+02 , Entropia=7.199463e+00 
+
+ --- iris.png ---
+Original: Constraste=255, Brilho=9.578412e+01 , Entropia=7.713811e+00 
+Improved: Constraste=255, Brilho=1.086224e+02 , Entropia=7.646871e+00 
